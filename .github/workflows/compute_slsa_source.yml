@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: prov
-      uses: slsa-framework/source-actions/slsa_with_provenance@main
+      uses: deobieta/source-actions/slsa_with_provenance@feat/summary-detail
       with:
         allow-merge-commits: ${{inputs.allow-merge-commits}}
         build-from-source: ${{ inputs.build-from-source }}
